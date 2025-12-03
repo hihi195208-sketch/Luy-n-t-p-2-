@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Giới thiệu bản thân</title>
+  <style>
+    /* Giao diện pastel */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7e6f0; /* pastel hồng nhạt */
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #c7f0d9; /* pastel xanh nhạt */
+      color: #333;
+      text-align: center;
+      padding: 30px 0;
+      font-size: 28px;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 40px 20px;
+    }
+
+    .intro {
+      background-color: #fff3b0; /* pastel vàng nhạt */
+      padding: 25px 40px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 500px;
+      margin-bottom: 30px;
+    }
+
+    .friends {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .friend-link {
+      background-color: #b0d4f1; /* pastel xanh dương nhạt */
+      padding: 15px 25px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: transform 0.2s, background-color 0.2s;
+    }
+
+    .friend-link:hover {
+      transform: scale(1.05);
+      background-color: #90c9ed;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: #c7f0d9;
+      color: #333;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Luyện Tập 2 
+  </header>
+
+  <main>
+    <div class="intro">
+      <p>Xin chào! Mình là Đặng Hương Thảo. Đây là trang web giới thiệu bản thân mình và các liên kết đến Facebook của bạn bè mình.</p>
+    </div>
+
+    <div class="friends">
+      <a href="https://www.facebook.com/le.bui.thao.nhi.2024?locale=vi_VN">Thảo Nhi</a>
+      <a href="https://www.facebook.com/angvy.934530?locale=vi_VN" class="friend-link">Khánh Vy</a>
+      <a href="https://www.facebook.com/vee.mai.16?locale=vi_VN" class="friend-link">Hoàng Vy</a>
+	  <a href="https://www.facebook.com/phuong.thy.19508/about?locale=vi_VN" class="friend-link">Phương Thy</a>
+	  <a href="https://www.facebook.com/chi.cuong.759149?locale=vi_VN">Chí Cường</a>
+    </div>
+	 <!-- Nút quay về trang chủ -->
+    <button class="back-btn" onclick="goBack()">⬅ Quay lại</button>
+  </main>
+
+  <footer>
+    © 2025 Nhóm 6
+  </footer>
+
+</body>
+</html>
